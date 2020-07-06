@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.logo{
+    width:6em;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-self: center;
+}
+.menu li{
+    margin-left: 2em;
+    font-size: 0.87rem;
+}
+.nav-container{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    justify-content: space-between;
+}
+.mlink{
+    color: #0B2027;
+    text-decoration: none;
+}
+.mlink:hover{
+    text-decoration: underline;
+}
+
+/*Nav ends*/
+
+#hero{
+    background-color: #0B2027;
+    display: flex;
+    justify-content: center;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+}
+.hero-container{
+    width:80%;
+}
+.masthead{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.timestamp{
+    color: #999;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-top: 0.5rem;
+}
+.hero-description{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+    margin-bottom: 1.75em;
+}
+.button{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #30C41C;
+    font-size: 0.75rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.6em;
+    
+}
+.button:visited{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #30C41C;
+    font-size: 0.75rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.2em;
+}
+.button:hover{
+    background-color: #0d8000;
+}
+
+/*Hero section ends*/
+
+.details-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.details-1-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+}
+.details-1-container p{
+    align-self: center;
+    max-width: 600px;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #999
+}
+.details-1-container h1{
+    align-self: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+    border-bottom: 1.5px solid #30C41C;
+    padding-bottom: 0.3em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    border-start-end-radius: 5px;
+    margin-bottom: 1.3rem;
+}
+.safety-measures{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4em;
+}
+@media(min-width:600px){
+    .safety-measures{
+        flex-wrap: nowrap;
+    }
+}
+.safety{
+    display:block;
+    text-align: center;
+}
+.safety img{
+    padding: 10px;
+    width: 50px;
+}
+.safety p{
+    font-size: 0.9rem;
+    width: 250px;
+    max-width: 100%;
+}
+
+/*Details-1 ends */
+
+.chef-cards{
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+}
+.chef-flex{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.chef-flex div{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 3em;
+}
+.chef-flex img{
+    width: 300px;
+    max-width: 100%;
+}
+.chef-flex h3{
+    margin-bottom: 0em;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-top: 0.5em;
+    width: 250px;
+    max-width: 100%;
+}
+.chef-flex p{
+    font-size: 0.8rem;
+    margin: 0.2em 0;
+    line-height: 1.5em;
+    width: 250px;
+    max-width: 100%;
+}
+.chef-flex h5{
+    width: 250px;
+    max-width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+/* cards end here */
+.details-2{
+    display: flex;
+    justify-content: center;
+    padding-top:2.5em;
+    padding-bottom:2.5em;
+    background-color: #f1f1f1;
+}
+.details-2-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+}
+.details-2-container p{
+    align-self: center;
+    max-width: 600px;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #999;
+    margin-bottom: 1.2rem;
+}
+.details-2-container h1{
+    align-self: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+    border-bottom: 1.5px solid #30C41C;
+    padding-bottom: 0.3em;
+    border-start-end-radius: 5px;
+    margin-bottom: 0.9rem;
+}
+.button2{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #30C41C;
+    font-size: 0.75rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.2em;
+    max-width: 120px;
+    align-self: center;
+    align-content: center;
+}
+/*details 2 ends here */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top:1.75em;
+    padding-bottom:1.75em;
+    background-color: #0B2027;
+    color: #ffffff;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.copy-container p{
+    font-size: 0.8rem;
+    align-self: center;
+    margin-top: 1em;
+}
+.copy-container{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.footer-menu{
+    align-self: center;
+}
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+/*footer ends*/
+.fact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    background-image: url(./facts.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fact h1{
+    text-align: center;
+    font-weight: 100;
+    color: #ffffff;
+    align-self: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 3em;
+    padding-bottom: 2.5em;
+    font-size: 1.5rem;
+}
+.facts-container{
+    width: 50%;
+    align-self: center;
+    justify-content: space-between;
+}
+@media(min-width:600px){
+    .facts-container{
+        display: flex;
+    }
+}
+.facts{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.facts h4{
+    font-size: 1.4rem;
+    font-weight: 100;
+    align-self: center;
+    margin-bottom: 0.5em;
+}
+.facts h6{
+    align-self: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-bottom: 6em;
+}
